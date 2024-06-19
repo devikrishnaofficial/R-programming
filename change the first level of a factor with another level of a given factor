@@ -1,0 +1,10 @@
+
+factor1 <- factor(c("A", "B", "A", "C", "B"))
+factor2 <- factor(c("X", "Y", "Z", "X", "Z"))
+
+print(factor1)
+print(factor2)
+
+levels(factor1)[1] <- levels(factor2)[2]
+
+print(factor1)

@@ -1,0 +1,16 @@
+
+df1 <- data.frame(
+  ID = 1:3,
+  Name = c("Alice", "Bob", "Charlie"),
+  Age = c(25, 30, 28)
+)
+
+df2 <- data.frame(
+  ID = 1:4,
+  City = c("New York", "Los Angeles", "Chicago", "Houston"),
+  Population = c(8175133, 3792621, 2695598, 2100263)
+)
+
+list_of_dfs <- list(Dataframe1 = df1, Dataframe2 = df2)
+
+print(list_of_dfs)

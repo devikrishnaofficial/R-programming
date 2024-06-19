@@ -1,0 +1,6 @@
+
+factor1 <- factor(c("A", "B", "A", "C"))
+factor2 <- factor(c("D", "B", "C", "D"))
+
+combined_factor <- factor(c(levels(factor1), levels(factor2)))
+print(combined_factor)

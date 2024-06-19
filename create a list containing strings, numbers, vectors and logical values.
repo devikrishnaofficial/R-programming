@@ -1,0 +1,18 @@
+string_var <- "Hello, world!"
+number_var <- 42
+vector_var <- c(1, 2, 3, 4, 5)
+logical_var <- TRUE
+
+my_list <- list(
+  string = string_var,
+  number = number_var,
+  vector = vector_var,
+  logical = logical_var
+)
+
+print(my_list)
+
+cat("String:", my_list$string, "\n")
+cat("Number:", my_list$number, "\n")
+cat("Vector:", paste(my_list$vector, collapse = ", "), "\n")
+cat("Logical:", ifelse(my_list$logical, "TRUE", "FALSE"), "\n")

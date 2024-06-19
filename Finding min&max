@@ -1,0 +1,5 @@
+data <- c(10, 5, 8, 20, 15)
+max_value <- max(data)
+min_value <- min(data)
+cat("Maximum value:", max_value)
+cat("Minimum value:", min_value)  

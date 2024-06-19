@@ -1,0 +1,11 @@
+
+df <- data.frame(
+  Name = c("Alice", "Bob", "Charlie"),
+  Age = c(25, 30, 28),
+  City = c("New York", "Los Angeles", "Chicago")
+)
+
+# Extract the "Age" column 
+age_column <- df$Age
+
+print(age_column)

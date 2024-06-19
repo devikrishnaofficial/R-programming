@@ -1,0 +1,14 @@
+
+vector1 <- c("A", "B", "C", "D")
+vector2 <- c(1, 2, 3, 4)
+vector3 <- c(TRUE, FALSE, TRUE, FALSE)
+vector4 <- c(5.5, 6.6, 7.7, 8.8)
+
+df <- data.frame(
+  Column1 = vector1,
+  Column2 = vector2,
+  Column3 = vector3,
+  Column4 = vector4
+)
+
+print(df)

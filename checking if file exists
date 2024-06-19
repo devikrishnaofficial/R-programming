@@ -1,0 +1,6 @@
+file_name <- "C:/Users/hp/Desktop/sample.txt"
+if (file.exists(file_name)) {
+  print("File exists!")
+} else {
+  print("File does not exist.")
+}

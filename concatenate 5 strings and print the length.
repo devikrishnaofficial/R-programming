@@ -1,0 +1,9 @@
+s1 <- "I"
+s2 <- " am"
+s3 <- "K"
+s4 <- "Devi"
+s5 <- "Krishna"
+result_str <- paste(s1, s2, s3, s4, s5)
+
+length_of_str <- nchar(result_str)
+print(length_of_str)

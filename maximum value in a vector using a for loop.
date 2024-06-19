@@ -1,0 +1,9 @@
+vec <- c(3, 8, 1, 10, 5, 2)
+max_value <- vec[1]
+for (i in 2:length(vec)) {
+  if (vec[i] > max_value) {
+    max_value <- vec[i]
+  }
+}
+
+print(max_value)

@@ -1,0 +1,11 @@
+df <- data.frame(
+  OldName = c("A", "B", "C"),
+  Value = c(1, 2, 3)
+)
+
+print("Original Dataframe:")
+print(df)
+
+colnames(df)[colnames(df) == "OldName"] <- "NewName"
+print("\nUpdated Dataframe:")
+print(df)

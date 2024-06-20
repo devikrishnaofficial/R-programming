@@ -1,0 +1,4 @@
+list1 <- c("apple", "banana", "cherry", "date", "elderberry")
+list2 <- c("banana", "date", "fig", "grape", "cherry")
+not_in_list2 <- setdiff(list1, list2)
+cat("Elements in list1 not in list2:", not_in_list2, "\n")

@@ -1,0 +1,5 @@
+# Load built-in dataset 'mtcars'
+data(mtcars)
+
+# Create a histogram of MPG (miles per gallon)
+hist(mtcars$mpg, col = "skyblue", main = "Histogram of MPG", xlab = "MPG")
